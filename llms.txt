@@ -1,0 +1,24 @@
+# Professional Repo Docs Skill
+
+> A Claude Code skill that scaffolds professional, agent-first GitHub repository documentation for any project.
+
+This file follows the [llms.txt](https://llmstxt.org/) convention: a concise, machine-readable map
+of the project for large language models and AI agents.
+
+## About
+
+- Repository: https://github.com/ChanMeng666/professional-repo-docs-skill
+- Primary stack: Node.js (scaffold engine) + Markdown templates
+- License: MIT
+
+## Key documents
+
+- [README](https://github.com/ChanMeng666/professional-repo-docs-skill/blob/main/README.md): overview, features, installation, usage
+- [AGENTS.md](https://github.com/ChanMeng666/professional-repo-docs-skill/blob/main/AGENTS.md): how AI agents should work in this repo
+- [CONTRIBUTING](https://github.com/ChanMeng666/professional-repo-docs-skill/blob/main/CONTRIBUTING.md): development setup and contribution workflow
+- [CHANGELOG](https://github.com/ChanMeng666/professional-repo-docs-skill/blob/main/CHANGELOG.md): version history
+
+## For agents
+
+To work effectively here: read the README and AGENTS.md first, then follow the commands and
+conventions they describe. Prefer the project's own scripts over ad-hoc commands.
