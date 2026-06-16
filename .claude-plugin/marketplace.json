@@ -1,0 +1,17 @@
+{
+  "name": "chan-repo-docs",
+  "description": "Chan Meng's Claude Code skill for scaffolding professional, agent-first GitHub repository documentation.",
+  "owner": {
+    "name": "Chan Meng",
+    "email": "chanmeng.dev@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "professional-repo-docs",
+      "source": "./",
+      "description": "Scaffold professional, agent-first GitHub repo docs (README, LICENSE, community-health files, issue/PR templates, AGENTS.md) for any project.",
+      "category": "documentation",
+      "tags": ["readme", "license", "contributing", "community-health", "github", "documentation", "agents", "open-source"]
+    }
+  ]
+}

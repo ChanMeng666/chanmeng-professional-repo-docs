@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "professional-repo-docs",
+  "version": "0.1.0",
+  "description": "Scaffold professional, agent-first GitHub repository docs — README, LICENSE, FUNDING.yml, CODE_OF_CONDUCT, CONTRIBUTING, SECURITY, SUPPORT, GOVERNANCE, CHANGELOG, CITATION.cff, issue/PR templates, AGENTS.md, llms.txt.",
+  "author": {
+    "name": "Chan Meng",
+    "email": "chanmeng.dev@gmail.com",
+    "url": "https://github.com/ChanMeng666"
+  },
+  "homepage": "https://github.com/ChanMeng666/professional-repo-docs-skill",
+  "repository": "https://github.com/ChanMeng666/professional-repo-docs-skill",
+  "license": "MIT",
+  "keywords": [
+    "readme", "license", "contributing", "code-of-conduct", "security",
+    "community-health", "github", "documentation", "scaffold", "agents",
+    "open-source", "best-practices", "funding", "sponsors"
+  ]
+}
