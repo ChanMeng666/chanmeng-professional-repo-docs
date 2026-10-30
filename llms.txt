@@ -7,16 +7,16 @@ of the project for large language models and AI agents.
 
 ## About
 
-- Repository: https://github.com/ChanMeng666/professional-repo-docs-skill
+- Repository: https://github.com/ChanMeng666/chanmeng-professional-repo-docs
 - Primary stack: Node.js (scaffold engine) + Markdown templates
 - License: MIT
 
 ## Key documents
 
-- [README](https://github.com/ChanMeng666/professional-repo-docs-skill/blob/main/README.md): overview, features, installation, usage
-- [AGENTS.md](https://github.com/ChanMeng666/professional-repo-docs-skill/blob/main/AGENTS.md): how AI agents should work in this repo
-- [CONTRIBUTING](https://github.com/ChanMeng666/professional-repo-docs-skill/blob/main/CONTRIBUTING.md): development setup and contribution workflow
-- [CHANGELOG](https://github.com/ChanMeng666/professional-repo-docs-skill/blob/main/CHANGELOG.md): version history
+- [README](https://github.com/ChanMeng666/chanmeng-professional-repo-docs/blob/main/README.md): overview, features, installation, usage
+- [AGENTS.md](https://github.com/ChanMeng666/chanmeng-professional-repo-docs/blob/main/AGENTS.md): how AI agents should work in this repo
+- [CONTRIBUTING](https://github.com/ChanMeng666/chanmeng-professional-repo-docs/blob/main/CONTRIBUTING.md): development setup and contribution workflow
+- [CHANGELOG](https://github.com/ChanMeng666/chanmeng-professional-repo-docs/blob/main/CHANGELOG.md): version history
 
 ## For agents
 

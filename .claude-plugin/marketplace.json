@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "professional-repo-docs",
+      "name": "chanmeng-professional-repo-docs",
       "source": "./",
       "description": "Scaffold professional, agent-first GitHub repo docs (README, LICENSE, community-health files, issue/PR templates, AGENTS.md) for any project.",
       "category": "documentation",

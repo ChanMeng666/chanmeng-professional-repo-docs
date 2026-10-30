@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /*
- * professional-repo-docs — scaffold.mjs
+ * chanmeng-professional-repo-docs — scaffold.mjs
  *
  * Generates professional GitHub repo documentation (README, LICENSE, FUNDING.yml,
  * CODE_OF_CONDUCT, CONTRIBUTING, SECURITY, SUPPORT, GOVERNANCE, CHANGELOG, CITATION.cff,

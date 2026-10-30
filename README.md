@@ -7,7 +7,7 @@
 
 <div align="center">
 
-# 🪄 professional-repo-docs
+# 🪄 chanmeng-professional-repo-docs
 
 ### A Claude Code skill that scaffolds professional, agent-first GitHub repository documentation
 
@@ -16,7 +16,7 @@ LICENSE, community-health files, issue/PR templates, `AGENTS.md`, and more.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-green?style=flat-square)](https://docs.anthropic.com/en/docs/claude-code/skills)
-[![Validate](https://github.com/ChanMeng666/professional-repo-docs-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/ChanMeng666/professional-repo-docs-skill/actions/workflows/validate.yml)
+[![Validate](https://github.com/ChanMeng666/chanmeng-professional-repo-docs/actions/workflows/validate.yml/badge.svg)](https://github.com/ChanMeng666/chanmeng-professional-repo-docs/actions/workflows/validate.yml)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-EA4AAA?style=flat-square&logo=githubsponsors)](https://github.com/sponsors/ChanMeng666)
 
 </div>
@@ -53,38 +53,38 @@ Pick **one** method.
 ### Method 1 — Claude Code plugin marketplace (recommended)
 
 ```text
-/plugin marketplace add ChanMeng666/professional-repo-docs-skill
-/plugin install professional-repo-docs@chan-repo-docs
+/plugin marketplace add ChanMeng666/chanmeng-professional-repo-docs
+/plugin install chanmeng-professional-repo-docs@chan-repo-docs
 ```
 
 ### Method 2 — Git clone into your skills folder
 
-The skill content lives at `skills/professional-repo-docs/`. Copy that subfolder into your
+The skill content lives at `skills/chanmeng-professional-repo-docs/`. Copy that subfolder into your
 user-level skills directory:
 
 ```bash
 # macOS / Linux / Windows (Git Bash or WSL)
-git clone --depth 1 https://github.com/ChanMeng666/professional-repo-docs-skill.git /tmp/_prd-src \
-  && mv /tmp/_prd-src/skills/professional-repo-docs ~/.claude/skills/professional-repo-docs \
+git clone --depth 1 https://github.com/ChanMeng666/chanmeng-professional-repo-docs.git /tmp/_prd-src \
+  && mv /tmp/_prd-src/skills/chanmeng-professional-repo-docs ~/.claude/skills/chanmeng-professional-repo-docs \
   && rm -rf /tmp/_prd-src
 ```
 
 > **Windows PowerShell:** replace `~` with `$env:USERPROFILE` (destination
-> `$env:USERPROFILE\.claude\skills\professional-repo-docs`), and use `Move-Item` / `Remove-Item -Recurse`.
+> `$env:USERPROFILE\.claude\skills\chanmeng-professional-repo-docs`), and use `Move-Item` / `Remove-Item -Recurse`.
 
 ### Method 3 — Symlink (hack on the skill live)
 
 ```bash
-git clone https://github.com/ChanMeng666/professional-repo-docs-skill.git
-cd professional-repo-docs-skill
-ln -s "$(pwd)/skills/professional-repo-docs" ~/.claude/skills/professional-repo-docs
+git clone https://github.com/ChanMeng666/chanmeng-professional-repo-docs.git
+cd chanmeng-professional-repo-docs
+ln -s "$(pwd)/skills/chanmeng-professional-repo-docs" ~/.claude/skills/chanmeng-professional-repo-docs
 ```
 
 ```powershell
 # Windows PowerShell (Administrator)
 New-Item -ItemType SymbolicLink `
-  -Path  "$env:USERPROFILE\.claude\skills\professional-repo-docs" `
-  -Target "$(Resolve-Path .\skills\professional-repo-docs)"
+  -Path  "$env:USERPROFILE\.claude\skills\chanmeng-professional-repo-docs" `
+  -Target "$(Resolve-Path .\skills\chanmeng-professional-repo-docs)"
 ```
 
 ## Usage
@@ -99,7 +99,7 @@ and print the two post-setup steps (enable Discussions + the Sponsorships toggle
 You can also run the engine directly:
 
 ```bash
-node skills/professional-repo-docs/scripts/scaffold.mjs --readme lite --license MIT
+node skills/chanmeng-professional-repo-docs/scripts/scaffold.mjs --readme lite --license MIT
 # flags: --dir <path> --readme full|lite|none --license <SPDX> --citation --no-llms --no-agents --force
 ```
 

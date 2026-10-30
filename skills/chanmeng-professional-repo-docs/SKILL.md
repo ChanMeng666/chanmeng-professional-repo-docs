@@ -1,5 +1,5 @@
 ---
-name: professional-repo-docs
+name: chanmeng-professional-repo-docs
 description: >-
   Scaffold a complete set of professional, best-practice GitHub repository documentation for a
   project — README (agent-first), LICENSE, .github/FUNDING.yml, CODE_OF_CONDUCT.md, CONTRIBUTING.md,

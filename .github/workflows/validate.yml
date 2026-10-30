@@ -18,22 +18,22 @@ jobs:
 
       - name: SKILL.md exists and has frontmatter
         run: |
-          test -f skills/professional-repo-docs/SKILL.md
-          head -1 skills/professional-repo-docs/SKILL.md | grep -q '^---$'
+          test -f skills/chanmeng-professional-repo-docs/SKILL.md
+          head -1 skills/chanmeng-professional-repo-docs/SKILL.md | grep -q '^---$'
 
       - name: Bundled assets present
         run: |
-          test -f skills/professional-repo-docs/assets/CODE_OF_CONDUCT.md
-          test -f skills/professional-repo-docs/assets/FUNDING.yml
-          test -f skills/professional-repo-docs/assets/brand/chan-meng-logo.svg
+          test -f skills/chanmeng-professional-repo-docs/assets/CODE_OF_CONDUCT.md
+          test -f skills/chanmeng-professional-repo-docs/assets/FUNDING.yml
+          test -f skills/chanmeng-professional-repo-docs/assets/brand/chan-meng-logo.svg
           for l in MIT Apache-2.0 GPL-3.0 AGPL-3.0 LGPL-3.0 CC-BY-4.0 CC0-1.0; do
-            test -f "skills/professional-repo-docs/assets/licenses/LICENSE-$l.txt"
+            test -f "skills/chanmeng-professional-repo-docs/assets/licenses/LICENSE-$l.txt"
           done
 
       - name: scaffold.mjs parses and runs (dry scaffold into a temp dir)
         run: |
           mkdir -p /tmp/probe && cd /tmp/probe && git init -q && npm init -y >/dev/null 2>&1
-          node "$GITHUB_WORKSPACE/skills/professional-repo-docs/scripts/scaffold.mjs" --dir /tmp/probe --readme lite --license MIT --owner ChanMeng666 --repo probe
+          node "$GITHUB_WORKSPACE/skills/chanmeng-professional-repo-docs/scripts/scaffold.mjs" --dir /tmp/probe --readme lite --license MIT --owner ChanMeng666 --repo probe
           test -f /tmp/probe/README.md
           test -f /tmp/probe/LICENSE
           test -f /tmp/probe/.github/FUNDING.yml
