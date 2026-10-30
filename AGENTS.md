@@ -35,7 +35,7 @@ There is no build/lint/test toolchain to install; the engine is dependency-free 
 ## Architecture & Conventions
 
 - **`skills/chanmeng-professional-repo-docs/`** is the actual installable skill (this nested layout mirrors
-  `typst-claude-skill` so the `.claude-plugin/` marketplace path resolves). Everything outside it
+  `chanmeng-typst` so the `.claude-plugin/` marketplace path resolves). Everything outside it
   (root README/LICENSE/CHANGELOG, `.claude-plugin/`, `.github/`) is repo packaging.
 - **`SKILL.md`** — the skill's instructions + trigger description. The `description` frontmatter is
   the triggering mechanism; keep it broad and "pushy" (it was validated at 100% recall / 100%
