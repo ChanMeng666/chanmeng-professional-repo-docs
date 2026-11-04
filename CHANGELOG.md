@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   If you added the old `chan-repo-docs` marketplace, remove it first:
   `/plugin marketplace remove chan-repo-docs`.
 - CI now runs `claude plugin validate --strict` on the plugin and marketplace manifests.
+- A plugin icon, `.claude-plugin/icon.png`: the Chan Meng monkey on a Caldera palette colour, so catalogs show it instead of a letter.
 
 ## [0.1.0]
 
