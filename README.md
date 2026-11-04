@@ -54,7 +54,7 @@ Pick **one** method.
 
 ```text
 /plugin marketplace add ChanMeng666/chanmeng-professional-repo-docs
-/plugin install chanmeng-professional-repo-docs@chan-repo-docs
+/plugin install chanmeng-professional-repo-docs@chanmeng-professional-repo-docs
 ```
 
 ### Method 2 — Git clone into your skills folder
