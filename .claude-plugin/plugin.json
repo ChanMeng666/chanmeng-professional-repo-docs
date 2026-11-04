@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "chanmeng-professional-repo-docs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scaffold professional, agent-first GitHub repository docs — README, LICENSE, FUNDING.yml, CODE_OF_CONDUCT, CONTRIBUTING, SECURITY, SUPPORT, GOVERNANCE, CHANGELOG, CITATION.cff, issue/PR templates, AGENTS.md, llms.txt.",
   "author": {
     "name": "Chan Meng",

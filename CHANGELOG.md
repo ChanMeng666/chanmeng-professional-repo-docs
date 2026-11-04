@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-11-04
+
+### Changed
+- The marketplace is now named `chanmeng-professional-repo-docs`, the same as the repo, plugin and skill.
+  Install with `/plugin install chanmeng-professional-repo-docs@chanmeng-professional-repo-docs`.
+  If you added the old `chan-repo-docs` marketplace, remove it first:
+  `/plugin marketplace remove chan-repo-docs`.
+- CI now runs `claude plugin validate --strict` on the plugin and marketplace manifests.
+- A plugin icon, `.claude-plugin/icon.png`: the Chan Meng monkey on a Caldera palette colour, so catalogs show it instead of a letter.
+
 ## [0.1.0]
 
 ### Added
