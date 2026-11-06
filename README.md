@@ -50,6 +50,14 @@ that are **missing** (never clobbers your work), brands every README, and never 
 
 Pick **one** method.
 
+### Any agent, with the skills CLI
+
+Installs into Claude Code, Cursor, Codex, GitHub Copilot, Gemini CLI and the other agents the CLI supports. Listed on [skills.sh](https://skills.sh/chanmeng666).
+
+```bash
+npx skills add ChanMeng666/chanmeng-professional-repo-docs
+```
+
 ### Method 1 — Claude Code plugin marketplace (recommended)
 
 ```text
